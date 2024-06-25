@@ -99,6 +99,6 @@ Contact and Citation
 
 For more information on diffpy.utils please visit the project `web-page <https://diffpy.github.io/>`_ or email Prof. Simon Billinge at sb2896@columbia.edu.
 
-If you use diffpy.utils in a scientific publication, we would appreciate `citations <LINK HERE>`_.  
+If you use diffpy.utils in a scientific publication, we would appreciate `citations [ADD LINK] <LINK HERE>`_.  
 
 .. ADD LINK IN <LINK HERE> and delete [ADD LINK]
