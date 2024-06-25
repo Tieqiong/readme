@@ -5,9 +5,9 @@
         :target: https://diffpy.github.io/diffpy.utils
         :height: 100px
    
-|PyPi| |Forge| |PythonVersion| |Tracking| |PR|
+|PyPi| |Forge| |PythonVersion| |PR|
 
-|CI| |Codecov| |Black| |DOI| 
+|CI| |Codecov| |Black| |Tracking|
 
 .. |Black| image:: https://img.shields.io/badge/code_style-black-black
         :target: https://github.com/psf/black
@@ -17,9 +17,6 @@
 
 .. |Codecov| image:: https://codecov.io/gh/diffpy/diffpy.utils/branch/main/graph/badge.svg
         :target: https://codecov.io/gh/diffpy/diffpy.utils
-   
-.. |DOI| image:: https://img.shields.io/badge/TO_ADD_DOI-doi_%3F-red
-        :target: https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content
    
 .. |Forge| image:: https://img.shields.io/conda/vn/conda-forge/diffpy.utils
         :target: https://anaconda.org/conda-forge/diffpy.utils
@@ -109,4 +106,4 @@ Contact and Citation
 
 For more information on diffpy.utils please visit the project `web-page <https://diffpy.github.io/>`_ or email Prof. Simon Billinge at sb2896@columbia.edu.
 
-If you use diffpy.utils in a scientific publication, we would appreciate `citations <>`_.
+If you use diffpy.utils in a scientific publication, we would appreciate `citations <LINK HERE>`_.
