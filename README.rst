@@ -76,13 +76,6 @@ and run the following ::
 
         pip install .
 
-To check the installation integrity, ``cd`` into your ``diffpy.utils`` directory and run ::
-
-        pip install -r https://raw.githubusercontent.com/diffpy/diffpy.utils/main/requirements/test.txt
-        python -m diffpy.utils.tests.run
-
-If the following passes all checks, you are good! 
-
 Support and Contribute
 ----------------------
 
@@ -106,4 +99,6 @@ Contact and Citation
 
 For more information on diffpy.utils please visit the project `web-page <https://diffpy.github.io/>`_ or email Prof. Simon Billinge at sb2896@columbia.edu.
 
-If you use diffpy.utils in a scientific publication, we would appreciate `citations <LINK HERE>`_.
+If you use diffpy.utils in a scientific publication, we would appreciate `citations [ADD LINK] <LINK HERE>`_.  
+
+.. ADD LINK IN <LINK HERE> and delete [ADD LINK]
