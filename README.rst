@@ -79,9 +79,9 @@ and run the following ::
 Support and Contribute
 ----------------------
 
-`diffpy user group <https://groups.google.com/g/diffpy-users>`_ is the discussion forum for general questions and discussions about the use of diffpy.utils. You can join the diffpy-users community by joining the Google group. The diffpy project welcomes your expertise and enthusiasm!
+`Diffpy user group <https://groups.google.com/g/diffpy-users>`_ is the discussion forum for general questions and discussions about the use of diffpy.utils. You can join the diffpy.utils users community by joining the Google group. The diffpy.utils project welcomes your expertise and enthusiasm!
 
-If you see a bug or want to request a feature, please `report it as an issue <https://github.com/diffpy/diffpy.utils/issues>`_ and/or `submit a fix as a PR <https://github.com/diffpy/diffpy.utils/pulls>`_. You can also post it to the `diffpy-dev user group <https://groups.google.com/g/diffpy-dev>`_. 
+If you see a bug or want to request a feature, please `report it as an issue <https://github.com/diffpy/diffpy.utils/issues>`_ and/or `submit a fix as a PR <https://github.com/diffpy/diffpy.utils/pulls>`_. You can also post it to the `Diffpy user group <https://groups.google.com/g/diffpy-users>`_. 
 
 Feel free to fork the project and contribute. To install diffpy.utils
 in a development mode, with its sources being directly used by Python
@@ -99,6 +99,6 @@ Contact and Citation
 
 For more information on diffpy.utils please visit the project `web-page <https://diffpy.github.io/>`_ or email Prof. Simon Billinge at sb2896@columbia.edu.
 
-If you use diffpy.utils in a scientific publication, we would appreciate `citations [ADD LINK] <LINK HERE>`_.  
+If you use diffpy.utils in a scientific publication, we would appreciate `citations <LINK HERE>`_.  
 
 .. ADD LINK IN <LINK HERE> and delete [ADD LINK]
