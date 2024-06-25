@@ -1,19 +1,13 @@
-|Header|
-========
+|Icon| `diffpy.utils <https://diffpy.github.io/diffpy.utils>`_
+=========================================================
 
-.. |Header| raw:: html
-
-        <h1 style="margin-top: 0; margin-bottom: 0;">
-                <a href=".." style="text-decoration:none;">
-                        <img style="vertical-align:middle" src="https://www.diffpy.org/_static/diffpy_logo_header.png" width="100">
-                        <!--maybe use https://github.com/diffpy.png ?-->
-                        <span>diffpy.utils</span>
-                </a>
-        </h1>
+.. |Icon| image:: https://avatars.githubusercontent.com/diffpy
+        :target: https://diffpy.github.io/diffpy.utils
+        :height: 100px
    
 |PyPi| |Forge| |PythonVersion| |Tracking| |PR|
 
-|Test| |CI| |Codecov| |Black| |DOI| 
+|CI| |Codecov| |Black| |DOI| 
 
 .. |Black| image:: https://img.shields.io/badge/code_style-black-black
         :target: https://github.com/psf/black
@@ -24,7 +18,7 @@
 .. |Codecov| image:: https://codecov.io/gh/diffpy/diffpy.utils/branch/main/graph/badge.svg
         :target: https://codecov.io/gh/diffpy/diffpy.utils
    
-.. |DOI| image:: https://img.shields.io/badge/TO_ADD_DOI-need_a_doi_%3F-red
+.. |DOI| image:: https://img.shields.io/badge/TO_ADD_DOI-doi_%3F-red
         :target: https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content
    
 .. |Forge| image:: https://img.shields.io/conda/vn/conda-forge/diffpy.utils
@@ -39,9 +33,6 @@
 .. |PythonVersion| image:: https://img.shields.io/pypi/pyversions/diffpy.utils
         :target: https://pypi.org/project/diffpy.utils/
 
-.. |Test| image:: https://img.shields.io/badge/TO_ADD_TEST-need_a_test.yml_%3F-red
-        :target: https://github.com/matplotlib/matplotlib/blob/main/.github/workflows/tests.yml
-
 .. |Tracking| image:: https://img.shields.io/badge/issue_tracking-github-blue
         :target: https://github.com/diffpy/diffpy.utils/issues
 
@@ -49,9 +40,9 @@ Smaller shared functions for use by other diffpy packages.
 
 * LONGER DESCRIPTION HERE
 
-For more information about the diffpy.utils library, see the users manual at https://diffpy.github.io/diffpy.utils.
+For more information about the diffpy.utils library, see the `users manual <https://diffpy.github.io/diffpy.utils>`_.
 
-INSTALLATION
+Installation
 ------------
 
 The preferred method is to use `Miniconda Python
@@ -77,6 +68,9 @@ Another option is to use ``pip`` to download and install the latest release from
 To install using ``pip`` into your ``diffpy.utils`` environment, we will also have to install dependencies ::
 
         pip install -r https://raw.githubusercontent.com/diffpy/diffpy.utils/main/requirements/run.txt
+
+and then install the package ::
+
         pip install diffpy.utils
 
 If you prefer to install from sources, after installing the dependencies, obtain the source archive from
@@ -85,15 +79,19 @@ and run the following ::
 
         pip install .
 
-To check the installation integrity, if the following passes all checks, you are good! ::
+To check the installation integrity, ``cd`` into your ``diffpy.utils`` directory and run ::
 
         pip install -r https://raw.githubusercontent.com/diffpy/diffpy.utils/main/requirements/test.txt
         python -m diffpy.utils.tests.run
 
-DEVELOPMENT
------------
+If the following passes all checks, you are good! 
 
-diffpy.utils is an open-source software... ADD MORE
+Support and Contribute
+----------------------
+
+`diffpy user group <https://groups.google.com/g/diffpy-users>`_ is the discussion forum for general questions and discussions about the use of diffpy.utils. You can join the diffpy-users community by joining the Google group. The diffpy project welcomes your expertise and enthusiasm!
+
+If you see a bug or want to request a feature, please `report it as an issue <https://github.com/diffpy/diffpy.utils/issues>`_ and/or `submit a fix as a PR <https://github.com/diffpy/diffpy.utils/pulls>`_. You can also post it to the `diffpy-dev user group <https://groups.google.com/g/diffpy-dev>`_. 
 
 Feel free to fork the project and contribute. To install diffpy.utils
 in a development mode, with its sources being directly used by Python
@@ -102,14 +100,13 @@ directory ::
 
         pip install -e .
 
-Note that... ANYTHING ELSE
+Improvements and fixes are always appreciated.
 
+To learn more about how to successfully get involved and contributing to diffpy.utils, please see our `Contributing guide <https://github.com/diffpy/diffpy.utils/blob/main/CONTRIBUTING.rst>`_ and `Code of Conduct <https://github.com/diffpy/diffpy.utils/blob/main/CODE_OF_CONDUCT.rst>`_.
 
-CONTACTS
---------
+Contact and Citation
+--------------------
 
-For more information on diffpy.utils please visit the project web-page
+For more information on diffpy.utils please visit the project `web-page <https://diffpy.github.io/>`_ or email Prof. Simon Billinge at sb2896@columbia.edu.
 
-* ADD LINK TO WEB-PAGE
-
-or email Prof. Simon Billinge at sb2896@columbia.edu.
+If you use diffpy.utils in a scientific publication, we would appreciate `citations <>`_.
